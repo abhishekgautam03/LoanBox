@@ -1,0 +1,6 @@
+{
+"make_year":"{{makeyear}}",
+"version_slug":"{{version_slug}}",
+"city_id":"{{cityid}}",
+"dealer_id":"{{dealerid}}"
+}

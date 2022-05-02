@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20480" started-at="2022-04-26T19:42:29 IST" finished-at="2022-04-26T19:42:50 IST">
+    <groups>
+    </groups>
+    <test name="Financer Quote" duration-ms="20480" started-at="2022-04-26T19:42:29 IST" finished-at="2022-04-26T19:42:50 IST">
+      <class name="utilsRunner.MUFQuote">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:utilsRunner.MUFQuote@3d0f8e03]" name="setUpSuite" is-config="true" duration-ms="5836" started-at="2022-04-26T19:42:23 IST" finished-at="2022-04-26T19:42:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="testMUFQuote()[pri:0, instance:utilsRunner.MUFQuote@3d0f8e03]" name="testMUFQuote" duration-ms="20444" started-at="2022-04-26T19:42:29 IST" finished-at="2022-04-26T19:42:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMUFQuote -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:utilsRunner.MUFQuote@3d0f8e03]" name="tearDownMethod" is-config="true" duration-ms="2" started-at="2022-04-26T19:42:50 IST" finished-at="2022-04-26T19:42:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMUFQuote status=SUCCESS method=MUFQuote.testMUFQuote()[pri:0, instance:utilsRunner.MUFQuote@3d0f8e03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:utilsRunner.MUFQuote@3d0f8e03]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-04-26T19:42:50 IST" finished-at="2022-04-26T19:42:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="EndSuite()[pri:0, instance:utilsRunner.MUFQuote@3d0f8e03]" name="EndSuite" is-config="true" duration-ms="256" started-at="2022-04-26T19:42:50 IST" finished-at="2022-04-26T19:42:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSuite -->
+      </class> <!-- utilsRunner.MUFQuote -->
+    </test> <!-- Financer Quote -->
+  </suite> <!-- Suite -->
+</testng-results>

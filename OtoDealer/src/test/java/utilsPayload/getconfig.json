@@ -1,0 +1,21 @@
+{
+ "source": "{{source}}",
+    "dealer_id": {{dealeid}},
+    "config_data": [
+        "agent_list",
+        "status_list",
+        "financier_list",
+        "lead_source",
+        "region_list",
+        "document_list",
+        "language_list",
+        "loan_tenure",
+        "declaration",
+        "insurance_type",
+        "loan_type",
+        "jakarta_plate_no",
+        "price_upping",
+        "installment_type"
+    ]
+   
+}

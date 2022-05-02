@@ -1,0 +1,25 @@
+*******Request Data****** 
+
+Api Method-----  POST
+
+Url-----  http://int-backend-stage.oto.com/account/user/login
+
+*******Header******** 
+
+Accept=*/*
+Accept-Language=en-US
+User-Agent=PostmanRuntime/7.28.4
+Host=int-gcloud-stage.oto.com
+Content-Type=application/json
+
+*******RequestBody******** 
+
+{"password":"Oto@123","_with":["contact"],"email":"girnar.test.owner@gmail.com"}
+
+********Response Data*******
+
+Status line------  HTTP/1.1 200 OK
+Status Code------  200
+Api Response Status Code------- 200
+
+{"status":200,"message":"Login Success","data":{"user_data":{"user_id":2350,"name":"Girnar Test Owner","email":"girnar.test.owner@gmail.com","mobile":"81315862467","user_name":"girnar.test.owner@gmail.com","user_type_id":9,"user_type":"D","lang":1,"source_id":1,"role":"dealercentral","role_type":"Owner"},"dealer_data":[{"dealer_id":2350,"dealer_id_hash":"2cb2d9eeb8913054","used_car_dealer_id":null,"organization":"Girnar Test","template_id":null,"address":"L1|L2|L2","city_ids":[333],"logo":null,"logo_active":null,"domain":null,"android_app_link":"","ios_app_link":"","default_lang_id":1,"gcd_code":"GCD2350","longitude":77.4052227,"latitude":27.0874034,"dealer_type":"UCD","dealer_type_id":1,"contact":{"SMS_buyer_lead":"+6281315862467","SMS._buyer_lead._name":"Girnar Test Owner","EMAIL_buyer_lead":"girnar.test.owner@gmail.com","EMAIL._buyer_lead._name":"Girnar Test Owner","WHATSAPP_buyer_lead":"+6281315862467","WHATSAPP._buyer_lead._name":"Girnar Test Owner","SMS_seller_lead":"+6281315862467","SMS._seller_lead._name":"Girnar Test Owner","EMAIL_seller_lead":"girnar.test.owner@gmail.com","EMAIL._seller_lead._name":"Girnar Test Owner","WHATSAPP_seller_lead":"+6281315862467","WHATSAPP._seller_lead._name":"Girnar Test Owner","SMS_finance_enq":"+6281315862467","SMS._finance_enq._name":"Girnar Test Owner","EMAIL_finance_enq":"girnar.test.owner@gmail.com","EMAIL._finance_enq._name":"Girnar Test Owner","WHATSAPP_finance_enq":"+6281315862467","WHATSAPP._finance_enq._name":"Girnar Test Owner"},"stock_category":[1,3]}],"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyMzUwLCJtb2JpbGUiOiI4MTMxNTg2MjQ2NyIsIm5hbWUiOiJHaXJuYXIgVGVzdCBPd25lciIsImlhdCI6MTY0NjE5Mzc0MywiZXhwIjoxNjQ4Nzg1NzQzfQ.4Y10L_niaGSnhQ-5DUHAUMTX6CVrVahuCbboLsboIb4","lead_data":{},"inventory_data":{}}}

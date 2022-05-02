@@ -1,0 +1,7 @@
+{
+"financier_id":"{{financer_id}}",
+"model_id":"{{modelid}}",
+"area_id":"{{areaid}}",
+"version_id":"{{versionid}}",
+"dealer_id":"{{dealerid}}"
+}
